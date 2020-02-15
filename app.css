@@ -1,0 +1,19 @@
+body { font-family: arial; text-align: center;}
+#list{width: 300px; margin: 0 auto;}
+td, th { text-align: center; border:1px solid #aaa; padding: 10px;}
+th a { color: #660; text-decoration: none;}
+table { margin: 20px auto; border-collapse: collapse;} 
+tr:nth-child(even) { background: #ccc;}
+
+
+/*
+td, th { border:1px solid #aaa; padding: 10px;}
+th{ color: #660; text-decoration: none;}
+table { margin: 20px auto; border-collapse: collapse;} 
+tr:nth-child(even) { background: #ccc;}
+h2{text-align: center;}
+*/
+
+#cityInfo td { width: 125px;  padding: 10px; text-align: left; border: none;}
+#cityInfo tr:nth-child(even) { background: #ffddff;}
+#cityInfo td:nth-child(2) { font-weight: bold;}
